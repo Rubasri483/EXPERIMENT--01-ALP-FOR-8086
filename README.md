@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+# Name : R.Rubasri
+# Roll no : 212224240139
+# Date of experiment : 18/08/2025
 
 
 
@@ -78,24 +78,104 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Programs for arithmetic  operations
 
 ## Addition  of 8 bit ALP 
+```
+org 100h
 
+mov ax,3274h
+mov bx,5324h
+add ax,bx
+ret
+```
 
+## Output 
+<img width="1354" height="691" alt="image" src="https://github.com/user-attachments/assets/319697cc-578e-421f-bc17-f7a812247da0" />
 
-## Output  
  
 ## Subtraction   of 8 bit numbers  ALP 
+```
+org 100h
+
+mov ax,3274h
+mov bx,[3274h]
+sub ax,bx
+ret
+```
  
 ## Output  
+<img width="1362" height="712" alt="Screenshot 2025-08-18 143105" src="https://github.com/user-attachments/assets/4ed59f7a-77cb-4c62-a55d-cb9d241e0345" />
+
+
 ## Multiplication alp 
+```
+org 100h  
+mov bx,2345h
+mov al,[bx]
+mov bl,[bx]
+mul bl
+ret
+```
+
  ## Output  
+<img width="1359" height="720" alt="image" src="https://github.com/user-attachments/assets/a05ac246-ea1b-41b5-be28-6900eb1292ee" />
 
 
 ## Division alp 
-
+```
+org 100h  
+mov ax,2345h
+mov bx,[5432h]
+div bx
+ret
+```
 ## Output  
+<img width="1363" height="716" alt="image" src="https://github.com/user-attachments/assets/301c89a9-9e63-444b-af6c-64f032cde1fc" />
+
+## AND of 8 bit numbers ALP
+```
+org 100h
+mov al,64h
+mov bl,70h
+and al,bl
+ret
+```
+## Output
+
+<img width="1363" height="687" alt="image" src="https://github.com/user-attachments/assets/4093e7f4-c6cf-465c-8eeb-a24b90785b51" />
+
+## Or of 8 bit numbers ALP
+```
+org 100h
+mov al,64h
+mov bl,[70h]
+or al,bl
+ret
+```
+## output
+<img width="1364" height="714" alt="image" src="https://github.com/user-attachments/assets/93ad22e5-8fe6-4635-8c64-574040d79c16" />
+
+## NOT of 8 bit numbers ALP
+```
+org 100h
+mov al,[43h]
+not al
+ret
+```
+## output
+<img width="1361" height="698" alt="image" src="https://github.com/user-attachments/assets/35f02d57-6f2f-435f-8d49-b12b8677c6fe" />
+
+## XOR of 8 bit numbers ALP
+```
+org 100h
+mov al,[34h]
+mov bl,[64h]
+xor al,bl
+```
+## Output:
+<img width="1365" height="719" alt="image" src="https://github.com/user-attachments/assets/f68a295c-4e7b-4a10-ada1-ca54d7fe7433" />
 
 
 ## Result :
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
  
 
 
