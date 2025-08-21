@@ -1,7 +1,8 @@
-# EXPERIMENT--01-ALP-FOR-8086
+
 # Name : R.Rubasri
 # Roll no : 212224240139
-# Date of experiment : 18/08/2025
+# Date of experiment : 21/08/2025
+# EXPERIMENT 01 ALP FOR 8086
 
 
 
@@ -77,7 +78,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
+## Addition  of 16 bit ALP 
 ```
 org 100h
 
@@ -91,7 +92,7 @@ ret
 <img width="1354" height="691" alt="image" src="https://github.com/user-attachments/assets/319697cc-578e-421f-bc17-f7a812247da0" />
 
  
-## Subtraction   of 8 bit numbers  ALP 
+## Subtraction   of 16 bit numbers  ALP 
 ```
 org 100h
 
@@ -108,15 +109,15 @@ ret
 ## Multiplication alp 
 ```
 org 100h  
-mov bx,2345h
-mov al,[bx]
-mov bl,[bx]
-mul bl
+mov ax,0778h
+mov bx,0756h
+mul bx
 ret
 ```
 
  ## Output  
-<img width="1359" height="720" alt="image" src="https://github.com/user-attachments/assets/a05ac246-ea1b-41b5-be28-6900eb1292ee" />
+<img width="1264" height="633" alt="image" src="https://github.com/user-attachments/assets/7713fb2f-3dcc-4ee4-b9c7-37aff82364b6" />
+
 
 
 ## Division alp 
@@ -130,48 +131,52 @@ ret
 ## Output  
 <img width="1363" height="716" alt="image" src="https://github.com/user-attachments/assets/301c89a9-9e63-444b-af6c-64f032cde1fc" />
 
-## AND of 8 bit numbers ALP
+## AND of 16 bit numbers ALP
 ```
 org 100h
-mov al,64h
-mov bl,70h
-and al,bl
+mov ax,643ch
+mov bx,7456h
+and ax,bx
 ret
 ```
 ## Output
 
-<img width="1363" height="687" alt="image" src="https://github.com/user-attachments/assets/4093e7f4-c6cf-465c-8eeb-a24b90785b51" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1155484e-b89f-4b14-9754-6d86795bbdd2" />
 
-## Or of 8 bit numbers ALP
+
+## Or of 16 bit numbers ALP
 ```
 org 100h
-mov al,64h
-mov bl,[70h]
-or al,bl
+mov bx,7cadh
+or ax,[bx]
 ret
 ```
 ## output
-<img width="1364" height="714" alt="image" src="https://github.com/user-attachments/assets/93ad22e5-8fe6-4635-8c64-574040d79c16" />
+<img width="1253" height="642" alt="image" src="https://github.com/user-attachments/assets/dde966b3-d99b-4e0f-b5e5-01a98677b193" />
 
-## NOT of 8 bit numbers ALP
+
+## NOT of 16 bit numbers ALP
 ```
 org 100h
-mov al,[43h]
-not al
+mov ax,[7abch]
+not ax
 ret
 ```
 ## output
-<img width="1361" height="698" alt="image" src="https://github.com/user-attachments/assets/35f02d57-6f2f-435f-8d49-b12b8677c6fe" />
+<img width="1280" height="613" alt="image" src="https://github.com/user-attachments/assets/0c2cbe39-02b3-4f5b-8380-5e94077602e2" />
 
-## XOR of 8 bit numbers ALP
+
+## XOR of 16 bit numbers ALP
 ```
 org 100h
-mov al,[34h]
-mov bl,[64h]
-xor al,bl
+mov ax,[78ach]
+mov bx,576ah
+xor ax,bx
+ret
 ```
 ## Output:
-<img width="1365" height="719" alt="image" src="https://github.com/user-attachments/assets/f68a295c-4e7b-4a10-ada1-ca54d7fe7433" />
+<img width="1280" height="642" alt="image" src="https://github.com/user-attachments/assets/9d55454c-cdeb-4265-8575-cc44813c30a6" />
+
 
 
 ## Result :
