@@ -1,9 +1,7 @@
 
-# Name : R.Rubasri
-# Roll no : 212224240139
-# Date of experiment : 21/08/2025
 # EXPERIMENT 01 ALP FOR 8086
-
+### Name : R.Rubasri
+### Roll no : 212224240139
 
 
 
